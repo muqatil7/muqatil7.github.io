@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "25aeb648384a1ffb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3d80d9cd1980d50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a62d91f6076493c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "penetration-testing-methodology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "penetration-testing-methodology"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc6b3cf79538ec29",
+    "type": "split",
+    "children": [
+      {
+        "id": "78d2a8063a2416a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbfb3229e62a3e6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "مستكشف الملفات"
+            }
+          },
+          {
+            "id": "fcbf6a9b51d9e6bd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "البحث"
+            }
+          },
+          {
+            "id": "ea7d84db7e959cec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "الإشارات المرجعية"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "05f3cfe0de1c015c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f72a9f662d624afd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "907250e9d75f2e60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "penetration-testing-methodology.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "روابط نصية لـ penetration-testing-methodology"
+            }
+          },
+          {
+            "id": "cd3a7729fcbb3dd2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "penetration-testing-methodology.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "الروابط الصادرة من penetration-testing-methodology"
+            }
+          },
+          {
+            "id": "905e07fc3576b189",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "419fe7b6545c5f97",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "penetration-testing-methodology.md"
+              },
+              "icon": "lucide-list",
+              "title": "الخطوط العريضة لـ penetration-testing-methodology"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:افتح الانتقال السريع": false,
+      "graph:فتح العرض البياني": false,
+      "canvas:إنشاء لوحة بصرية جديدة": false,
+      "daily-notes:فتح ملاحظة اليوم": false,
+      "templates:إدراج قالب": false,
+      "command-palette:فتح لوحة الأوامر": false
+    }
+  },
+  "active": "a62d91f6076493c9",
+  "lastOpenFiles": [
+    "intro.md",
+    "ctf-challenges/try-hack-me/Challenge-CTF-THM.md",
+    "ctf-challenges/hack-the-box/Challenge-CTF.md",
+    "penetration-testing-methodology.md",
+    "ctf-challenges/try-hack-me/_category_.json",
+    "ctf-challenges/try-hack-me",
+    "ctf-challenges/New folder",
+    "ctf-challenges/hack-the-box/_category_.json",
+    "ctf-challenges/Hack The Box.md",
+    "ctf-challenges/hack-the-box",
+    "ctf-challenges/بدون عنوان",
+    "ctf-challenges/_category_.json",
+    "ctf-challenges",
+    "ctf-chaleng",
+    "New folder",
+    "privilege-escolation/Linux-Privilege-Escalation.md",
+    "privilege-escolation/Linux Privilege Escalation.md",
+    "methodology.png",
+    "Vulnerability/xss-injection.md",
+    "Vulnerability/ssrf-attacks.md",
+    "Vulnerability/SQL Injection.md",
+    "Vulnerability/deploy-your-site.md",
+    "Vulnerability/create-a-page.md",
+    "Vulnerability/create-a-document.md",
+    "Vulnerability/create-a-blog-post.md",
+    "Vulnerability/congratulations.md",
+    "Pasted.md",
+    "penetration-testing.webp",
+    "methodology/congratulations.md",
+    "Methodology منهجية اختبار الاختراق.md",
+    "penetration-testing..md"
+  ]
+}
