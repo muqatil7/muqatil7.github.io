@@ -121,7 +121,7 @@ const HomePage = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-6xl mx-auto">
           <FeatureCard
-             imgSrc="/img/hacker_6019262.png"
+             imgSrc="/muqatil/img/hacker_6019262.png"
             title="اختبار الاختراق"
             description="تعلم كل شيء عن اختبار الاخترق و Penetration Testing "
           />
