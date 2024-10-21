@@ -105,7 +105,7 @@ const HomePage = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">
-            دليل عربي  لتعلم أساسيات وتقنيات اختبار الاختراق
+            دليل عربي شامل لتعلم أساسيات وتقنيات اختبار الاختراق
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
