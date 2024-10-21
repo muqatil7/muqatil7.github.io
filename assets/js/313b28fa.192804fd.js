@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkarab_bug_bounty=self.webpackChunkarab_bug_bounty||[]).push([[9345],{1206:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/muqatil/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
