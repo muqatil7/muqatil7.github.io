@@ -1,12 +1,12 @@
-yangshun:
-  name: Yangshun Tay
+yahia:
+  name: Yahia syid
   title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+  url: https://github.com/muqatil7
+  image_url: https://muqatil7.github.io/img/Image.png
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    x: Yahia
+    github: Yahia
 
 slorber:
   name: Sébastien Lorber
