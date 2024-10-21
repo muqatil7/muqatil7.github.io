@@ -126,7 +126,7 @@ const HomePage = () => {
           />
           <FeatureCard
             imgSrc="/img/translation_16744674.png"
-            title="بالغة العربية"
+            title="باللغة العربية"
             description="كل المواضيع هنا يتم اصدارها بالغة العربية "
           />
           <FeatureCard
