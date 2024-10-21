@@ -16,12 +16,12 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/muqatil/',
-  trailingSlash: true,
+  baseUrl: '/',
+
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yahia1928', // Usually your GitHub org/user name.
+  organizationName: 'muqatil7', // Usually your GitHub org/user name.
   projectName: 'muqatil', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
@@ -82,7 +82,7 @@ const config = {
         title:'مُقاتِل',
         logo: {
           alt: 'My Site Logo',
-          src: '/muqatil/img/Image.png',
+          src: '/img/Image.png',
         },
         items: [
           {
