@@ -88,7 +88,7 @@ const HomePage = () => {
       
       
       {/* إضافة تأثير الضباب */}
-      <MatrixBackground />
+    
       <div className="fixed inset-0 backdrop-blur-[1px]" />
       
       
