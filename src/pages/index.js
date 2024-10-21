@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Languages, Book, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import MatrixBackground from '../components/MatrixBackground'
 
