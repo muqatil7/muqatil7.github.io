@@ -62,7 +62,7 @@ const GlowingLogo = () => {
       <img
   src="/img/warrior-shield.png"
   alt="Logo"
-  className="relative md:w-68 md:h-48 rounded-full shadow-5xl transform scale-125 transition-transform duration-700 hover:scale-125"
+  className="relative md:w-68 md:h-48 rounded-full shadow-5xl transform scale-120 transition-transform duration-700 hover:scale-125"
 
   style={{
     filter: isGlowing ? 'drop-shadow(0 0 20px rgba(255,0,0,1))' : 'drop-shadow(0 0 10px rgba(255,0,0,0.3))',
@@ -120,7 +120,7 @@ const HomePage = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-6xl mx-auto">
           <FeatureCard
-             imgSrc="/img/hacker_6019262.png"
+             imgSrc="f/img/hacker_6019262.png"
             title="اختبار الاختراق"
             description="تعلم كل شيء عن اختبار الاخترق و Penetration Testing "
           />

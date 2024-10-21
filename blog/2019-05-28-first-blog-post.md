@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: [yangshun]
+authors: [yahia]
 tags: [hola, docusaurus]
 ---
 
