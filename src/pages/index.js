@@ -62,13 +62,13 @@ const GlowingLogo = () => {
       <img
   src="/img/warrior-shield.png"
   alt="Logo"
-  className="relative md:w-68 md:h-48 rounded-full shadow-5xl transform scale-120 transition-transform duration-700 hover:scale-125"
-
+  className="relative w-40 md:w-25 lg:w-68 mb-4 rounded-full shadow-5xl transform scale-150 transition-transform duration-700 hover:scale-125"
   style={{
     filter: isGlowing ? 'drop-shadow(0 0 20px rgba(255,0,0,1))' : 'drop-shadow(0 0 10px rgba(255,0,0,0.3))',
-    transition: 'filter 1s ease-in-out' // إضافة انتقال سلس للتصفية
+    transition: 'filter 1s ease-in-out',
   }}
 />
+
 
     </div>
   );
