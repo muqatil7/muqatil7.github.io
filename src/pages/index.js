@@ -62,7 +62,7 @@ const GlowingLogo = () => {
       <img
   src="/img/warrior-shield.png"
   alt="Logo"
-  className="relative w-40 md:w-25 lg:w-68 mb-4 rounded-full shadow-5xl transform scale-150 transition-transform duration-700 hover:scale-125"
+  className="relative w-48 h-auto mb-4 rounded-full shadow-5xl transition-transform duration-700 scale-125"
   style={{
     filter: isGlowing ? 'drop-shadow(0 0 20px rgba(255,0,0,1))' : 'drop-shadow(0 0 10px rgba(255,0,0,0.3))',
     transition: 'filter 1s ease-in-out',
@@ -109,7 +109,7 @@ const HomePage = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
-          <Link to="/docs/intro" className="px-8 py-4 bg-red-600 text-white rounded-lg text-lg font-bold transition-all duration-300 hover:bg-red-700 hover:scale-105 hover:shadow-lg hover:shadow-red-500/20">
+          <Link to="/docs/intro" className="px-8 py-4 bg-red-500 text-white rounded-lg text-lg font-bold transition-all duration-300 hover:bg-red-700 hover:scale-105 hover:shadow-lg hover:shadow-red-500/20">
         ابدأ الآن
         </Link>
         <Link to="/blog" className="px-8 py-4 bg-transparent border-2 border-red-500 text-red-500 rounded-lg text-lg font-bold transition-all duration-300 hover:bg-red-500 hover:text-white hover:scale-105 hover:shadow-lg hover:shadow-red-500/20">
