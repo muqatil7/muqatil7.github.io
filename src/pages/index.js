@@ -3,23 +3,131 @@ import { Link } from 'react-router-dom';
 import { ChevronLeft, Shield, Book, Users, Terminal } from 'lucide-react';
 
 // Animated background component
-const AnimatedBackground = () => (
-  <div className="fixed inset-0 overflow-hidden -z-10">
-    <div className="absolute w-full h-full bg-black">
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-red-950 opacity-90" />
-      {/* Animated grid lines */}
-      <div className="absolute inset-0" 
+const EnhancedBackground = () => {
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      setMousePosition({
+        x: (e.clientX / window.innerWidth) * 2 - 1,
+        y: (e.clientY / window.innerHeight) * 2 - 1
+      });
+    };
+    
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
+  return (
+    <div className="fixed inset-0 overflow-hidden -z-10">
+      {/* Base Layer */}
+      <div className="absolute inset-0 bg-black">
+        <div 
+          className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-red-950 opacity-90"
+          style={{
+            transform: `translate(${mousePosition.x * 10}px, ${mousePosition.y * 10}px)`,
+            transition: 'transform 0.3s ease-out'
+          }}
+        />
+        
+        {/* Animated Grid */}
+        <div 
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `
+              linear-gradient(to right, rgba(255,0,0,0.05) 1px, transparent 1px),
+              linear-gradient(to bottom, rgba(255,0,0,0.05) 1px, transparent 1px)
+            `,
+            backgroundSize: '50px 50px',
+            transform: `translate(${mousePosition.x * 5}px, ${mousePosition.y * 5}px)`,
+            transition: 'transform 0.5s ease-out'
+          }}
+        />
+        
+        {/* Animated Particles */}
+        <div className="absolute inset-0">
+          {[...Array(20)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute w-1 h-1 bg-red-500 rounded-full opacity-30"
+              style={{
+                left: `${Math.random() * 100}%`,
+                top: `${Math.random() * 100}%`,
+                animation: `float-${i} ${10 + Math.random() * 20}s infinite linear`,
+                filter: 'blur(1px)',
+              }}
+            />
+          ))}
+        </div>
+        
+        {/* Glowing Orbs */}
+        <div 
+          className="absolute inset-0"
+          style={{
+            perspective: '1000px',
+            transform: `rotateX(${mousePosition.y * 10}deg) rotateY(${mousePosition.x * 10}deg)`
+          }}
+        >
+          {[...Array(3)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute w-64 h-64 rounded-full"
+              style={{
+                background: `radial-gradient(circle at center, rgba(220,38,38,0.1) 0%, transparent 70%)`,
+                left: `${30 + i * 20}%`,
+                top: `${20 + i * 25}%`,
+                transform: `translate(${mousePosition.x * (20 + i * 5)}px, ${mousePosition.y * (20 + i * 5)}px)`,
+                transition: 'transform 0.4s ease-out',
+                animation: `pulse-${i} ${4 + i}s infinite ease-in-out alternate`
+              }}
+            />
+          ))}
+        </div>
+        
+        {/* Gradient Overlay */}
+        <div 
+          className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-50"
+          style={{
+            transform: `translate(${mousePosition.x * -5}px, ${mousePosition.y * -5}px)`,
+            transition: 'transform 0.6s ease-out'
+          }}
+        />
+      </div>
+      
+      {/* Scan Line Effect */}
+      <div 
+        className="absolute inset-0 pointer-events-none"
         style={{
-          backgroundImage: `
-            linear-gradient(to right, rgba(255,0,0,0.1) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255,0,0,0.1) 1px, transparent 1px)
-          `,
-          backgroundSize: '50px 50px',
+          background: 'linear-gradient(to bottom, transparent 50%, rgba(255,0,0,0.03) 50%)',
+          backgroundSize: '100% 4px',
+          animation: 'scanline 10s linear infinite'
         }}
       />
+      
+      <style jsx>{`
+        @keyframes scanline {
+          0% { transform: translateY(0); }
+          100% { transform: translateY(100%); }
+        }
+        ${[...Array(20)].map((_, i) => `
+          @keyframes float-${i} {
+            0% { transform: translate(0, 0); }
+            25% { transform: translate(${Math.random() * 100 - 50}px, ${Math.random() * 100 - 50}px); }
+            50% { transform: translate(${Math.random() * 100 - 50}px, ${Math.random() * 100 - 50}px); }
+            75% { transform: translate(${Math.random() * 100 - 50}px, ${Math.random() * 100 - 50}px); }
+            100% { transform: translate(0, 0); }
+          }
+        `).join('')}
+        ${[...Array(3)].map((_, i) => `
+          @keyframes pulse-${i} {
+            0% { transform: scale(1); opacity: 0.3; }
+            100% { transform: scale(1.2); opacity: 0.1; }
+          }
+        `).join('')}
+      `}</style>
     </div>
-  </div>
-);
+  );
+};
 
 // Enhanced StylishButton with more professional look
 const StylishButton = ({ href, children, primary = false }) => (
@@ -121,7 +229,7 @@ const HomePage = () => {
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden" dir="rtl">
-      <AnimatedBackground />
+      <EnhancedBackground />
       
       {/* Top gradient overlay */}
       <div className="fixed top-0 left-0 w-full h-32 bg-gradient-to-b from-gray-900 to-transparent z-10" />
