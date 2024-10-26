@@ -15,11 +15,15 @@ sidebar_position: 1
 
 ### المواضيع التي سيتم تناولها:
 
-- **عمليات البحث والاستطلاع (Information Gathering / Reconnaissance)**
-- **استكشاف الثغرات الأكثر شيوعًا في تطبيقات الويب (OWASP TOP 10)**
-- **تصعيد الامتيازات (Privilege Escalation)** في أنظمة **Linux** و **Windows**
-- **اختبار اختراق خدمات الشبكة (Network Services Pentesting)**
+
+ **عمليات البحث والاستطلاع (Information Gathering / Reconnaissance)**
+ 
+1.  **استكشاف الثغرات الأكثر شيوعًا في تطبيقات الويب (OWASP TOP 10)**
+
+2. **تصعيد الامتيازات (Privilege Escalation)** في أنظمة **Linux** و **Windows**
+
+-  **اختبار اختراق خدمات الشبكة (Network Services Pentesting)**
+
 
 بالإضافة إلى ذلك، سنقوم بحل العديد من المختبرات ومسابقات **التقاط العلم (Capture the Flag - CTF)** على أشهر المنصات في هذا المجال، مثل **Hack The Box** و **TryHackMe**، وسنتدرب أيضًا على كيفية كتابة تقارير جيدة عن الثغرات ونقاط الضعف المكتشفة.
 
-يمكنك البدء الآن ومتابعة المسار بالترتيب من هنا.

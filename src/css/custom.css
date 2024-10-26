@@ -4,10 +4,14 @@
  * work well for content-centric websites.
  */
 
- @tailwind base;
- @tailwind components;
- @tailwind utilities;
  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
  /* You can override the default Infima variables here. */
  :root {
    --ifm-color-primary: #eb3f3f;
@@ -43,32 +47,6 @@
    --bg-gradient-middle: #000000; /* الأسود */
    --bg-gradient-end: #1f2937; /* الرمادي الداكن */
  }
-
-
- .matrix-background {
-  position: fixed;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: -1; /* للتأكد من بقاء الخلفية في الخلفية */
-}
-
-.matrix-grid {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  gap: 2px;
-  padding: 4px;
-}
-.matrix-cell {
-  color: rgba(248, 41, 41, 0.25);
-  font-size: 0.75rem; /* يمكن التعديل لتكبير أو تصغير النص */
-  animation: pulse 1.5s infinite ease-in-out;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
-}
 
 
 

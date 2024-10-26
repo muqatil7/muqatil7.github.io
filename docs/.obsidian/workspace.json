@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reconnaissance/Subdomain.md",
+                "file": "intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subdomain"
+              "title": "intro"
             }
           }
         ]
@@ -164,15 +164,20 @@
   },
   "active": "a62d91f6076493c9",
   "lastOpenFiles": [
+    "tailwind.config.js",
     "reconnaissance/Subdomain.md",
+    "intro.md",
+    "Vulnerability/Command-Injection.md",
+    "Vulnerability/SQL Injection.md",
+    "Vulnerability/ssrf-attacks.md",
+    "Vulnerability/xss-injection.md",
+    "penetration-testing-methodology.md",
     "reconnaissance/img/localeDropdown.png",
     "reconnaissance/img/docsVersionDropdown.png",
-    "penetration-testing-methodology.md",
     "reconnaissance/translate-your-site.md",
     "reconnaissance/manage-docs-versions.md",
     "penetration-testing.webp",
     "methodology.png",
-    "intro.md",
     "ctf-challenges/try-hack-me/Challenge-CTF-THM.md",
     "ctf-challenges/hack-the-box/Challenge-CTF.md",
     "ctf-challenges/try-hack-me/_category_.json",
@@ -188,9 +193,6 @@
     "New folder",
     "privilege-escolation/Linux-Privilege-Escalation.md",
     "privilege-escolation/Linux Privilege Escalation.md",
-    "Vulnerability/xss-injection.md",
-    "Vulnerability/ssrf-attacks.md",
-    "Vulnerability/SQL Injection.md",
     "Vulnerability/deploy-your-site.md",
     "Vulnerability/create-a-page.md",
     "Vulnerability/create-a-document.md",
